@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/healee/static/css/main.74f3e644.chunk.css",
-    "main.js": "/healee/static/js/main.a1b18c1d.chunk.js",
-    "main.js.map": "/healee/static/js/main.a1b18c1d.chunk.js.map",
+    "main.css": "/healee/static/css/main.0a573fc7.chunk.css",
+    "main.js": "/healee/static/js/main.ccff7725.chunk.js",
+    "main.js.map": "/healee/static/js/main.ccff7725.chunk.js.map",
     "runtime-main.js": "/healee/static/js/runtime-main.742e379d.js",
     "runtime-main.js.map": "/healee/static/js/runtime-main.742e379d.js.map",
     "static/js/2.3ea904c2.chunk.js": "/healee/static/js/2.3ea904c2.chunk.js",
     "static/js/2.3ea904c2.chunk.js.map": "/healee/static/js/2.3ea904c2.chunk.js.map",
     "index.html": "/healee/index.html",
-    "static/css/main.74f3e644.chunk.css.map": "/healee/static/css/main.74f3e644.chunk.css.map",
+    "static/css/main.0a573fc7.chunk.css.map": "/healee/static/css/main.0a573fc7.chunk.css.map",
     "static/js/2.3ea904c2.chunk.js.LICENSE.txt": "/healee/static/js/2.3ea904c2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.742e379d.js",
     "static/js/2.3ea904c2.chunk.js",
-    "static/css/main.74f3e644.chunk.css",
-    "static/js/main.a1b18c1d.chunk.js"
+    "static/css/main.0a573fc7.chunk.css",
+    "static/js/main.ccff7725.chunk.js"
   ]
 }
