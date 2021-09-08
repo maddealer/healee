@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/healee/static/css/main.0a573fc7.chunk.css",
-    "main.js": "/healee/static/js/main.46431e81.chunk.js",
-    "main.js.map": "/healee/static/js/main.46431e81.chunk.js.map",
+    "main.js": "/healee/static/js/main.b28de38f.chunk.js",
+    "main.js.map": "/healee/static/js/main.b28de38f.chunk.js.map",
     "runtime-main.js": "/healee/static/js/runtime-main.742e379d.js",
     "runtime-main.js.map": "/healee/static/js/runtime-main.742e379d.js.map",
     "static/js/2.3ea904c2.chunk.js": "/healee/static/js/2.3ea904c2.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.742e379d.js",
     "static/js/2.3ea904c2.chunk.js",
     "static/css/main.0a573fc7.chunk.css",
-    "static/js/main.46431e81.chunk.js"
+    "static/js/main.b28de38f.chunk.js"
   ]
 }
