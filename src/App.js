@@ -9,7 +9,7 @@ function App() {
         <img src={logo} alt="Logo" />
         <h1> Healee Task</h1>
       </div>
-      <h3>Task Solution by Hristomir Hristov</h3>
+      <h3>Solution by Hristomir Hristov</h3>
       <Home />
     </div>
   );
