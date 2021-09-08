@@ -70,7 +70,7 @@ const Display = (props) => {
     });
 
     return (
-      <div>
+      <div className="display">
         <div className="row">
           <div className="column">
             <div className="card">
@@ -103,8 +103,8 @@ const Display = (props) => {
   return (
     <div>
       <div className="select">
-        <h4>Please choose a currency</h4>
-        <select value={selected} onChange={handleChange}>
+        <label for="selectCurrencie">Please choose a currency:</label>
+        <select value={selected} id="selectCurrencie" onChange={handleChange}>
           <option value="USD">USD</option>
           <option value="EUR">EUR</option>
           <option value="AUD">AUD</option>
@@ -115,7 +115,7 @@ const Display = (props) => {
         </select>
       </div>
       {loading ? <div></div> : display()}
-      <hr></hr>
+
       {dataReady ? <Diff data={dataReady} /> : null}
     </div>
   );

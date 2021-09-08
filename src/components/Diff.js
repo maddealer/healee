@@ -34,11 +34,9 @@ const Diff = (props) => {
         {difference ? (
           <div>
             <h4>
-              The length of the longest array, where the absolute difference
-              between any two elements of the array is less than or equal to 0.5
+              {`The length of the longest array, where the absolute difference between any two elements of the array is less than or equal to 0.5`}
             </h4>
-            <br></br>
-            <h3>{difference}</h3>
+            <h2>{difference}</h2>
           </div>
         ) : null}
       </div>

@@ -12,16 +12,16 @@ const Home = () => {
   const getRates = async () => {
     let allData = [];
     let groupedByCurrency = [];
-    const ONE_DAY = 1000 * 60;
+
+    //Fetched data will stay in cache( local sotrage ) for 24 hours
+    const ONE_DAY = 1000 * 60 * 60 * 24;
 
     let isData = JSON.parse(localStorage.getItem("data"));
     let expiry = JSON.parse(localStorage.getItem("expiry"));
     if (isData && expiry && expiry.nextCleanup > new Date().getTime()) {
       allData.push(isData);
-      console.log("gore");
     } else {
       allData = [];
-      console.log("dolu");
       localStorage.removeItem("data");
       localStorage.removeItem("expiry");
       for (let i = 0; i < currencies.length; i++) {
