@@ -18,13 +18,15 @@ const Diff = (props) => {
         if (data[j].rateOnly - data[i].rateOnly <= 0.5) {
           count++;
         } else {
-          if (count > maxCount) maxCount = count + 1;
+          if (count >= maxCount) {
+            maxCount = count + 1;
+          }
 
           break;
         }
       }
     }
-    if (count > maxCount) maxCount = count + 1;
+    if (count >= maxCount) maxCount = count + 1;
     setDifference(maxCount);
   };
 

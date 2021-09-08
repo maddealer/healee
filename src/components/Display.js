@@ -103,7 +103,7 @@ const Display = (props) => {
   return (
     <div>
       <div className="select">
-        <label for="selectCurrencie">Please choose a currency:</label>
+        <label htmlFor="selectCurrencie">Please choose a currency:</label>
         <select value={selected} id="selectCurrencie" onChange={handleChange}>
           <option value="USD">USD</option>
           <option value="EUR">EUR</option>
