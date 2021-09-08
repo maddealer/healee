@@ -12,7 +12,7 @@ const Home = () => {
   const getRates = async () => {
     let allData = [];
     let groupedByCurrency = [];
-    const ONE_DAY = 1000 * 10;
+    const ONE_DAY = 1000 * 60;
 
     let isData = JSON.parse(localStorage.getItem("data"));
     let expiry = JSON.parse(localStorage.getItem("expiry"));
