@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/healee/static/css/main.74f3e644.chunk.css",
+    "main.js": "/healee/static/js/main.1d68c1a7.chunk.js",
+    "main.js.map": "/healee/static/js/main.1d68c1a7.chunk.js.map",
+    "runtime-main.js": "/healee/static/js/runtime-main.742e379d.js",
+    "runtime-main.js.map": "/healee/static/js/runtime-main.742e379d.js.map",
+    "static/js/2.3ea904c2.chunk.js": "/healee/static/js/2.3ea904c2.chunk.js",
+    "static/js/2.3ea904c2.chunk.js.map": "/healee/static/js/2.3ea904c2.chunk.js.map",
+    "index.html": "/healee/index.html",
+    "static/css/main.74f3e644.chunk.css.map": "/healee/static/css/main.74f3e644.chunk.css.map",
+    "static/js/2.3ea904c2.chunk.js.LICENSE.txt": "/healee/static/js/2.3ea904c2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.742e379d.js",
+    "static/js/2.3ea904c2.chunk.js",
+    "static/css/main.74f3e644.chunk.css",
+    "static/js/main.1d68c1a7.chunk.js"
+  ]
+}
