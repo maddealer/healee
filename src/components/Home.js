@@ -18,7 +18,12 @@ const Home = () => {
 
     let isData = JSON.parse(localStorage.getItem("data"));
     let expiry = JSON.parse(localStorage.getItem("expiry"));
-    if (isData && expiry && expiry.nextCleanup > new Date().getTime()) {
+    if (
+      isData &&
+      expiry &&
+      expiry.nextCleanup > new Date().getTime() &&
+      isData.length > 0
+    ) {
       allData.push(isData);
     } else {
       allData = [];
